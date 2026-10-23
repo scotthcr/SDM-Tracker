@@ -1,0 +1,6 @@
+# Netlify publishes the functional static preview from this directory.
+[build]
+  base = "."
+  publish = "netlify-app"
+
+# The preview uses browser localStorage and requires no build command.
