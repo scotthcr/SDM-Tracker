@@ -1,9 +1,6 @@
-# Netlify configuration for SDM-Tracker
-# This repository contains a static HTML/CSS/JavaScript prototype under
-# 09_DANIEL_PROYECTO. The app's data/auth flows require a separate backend.
+# Netlify publishes the functional static preview from this directory.
 [build]
-  base = "09_DANIEL_PROYECTO"
-  publish = "."
+  base = "."
+  publish = "netlify-app"
 
-# Preserve direct navigation to the static pages. Do not add an SPA fallback:
-# each section already has its own index.html file.
+# The preview uses browser localStorage and requires no build command.
