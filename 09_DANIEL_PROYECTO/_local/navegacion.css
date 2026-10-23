@@ -1,0 +1,6 @@
+.r88-localbar{position:fixed;bottom:12px;left:50%;transform:translateX(-50%);z-index:20000;display:flex;align-items:center;gap:18px;background:#14252bee;color:#fff;padding:10px 18px;border-radius:12px;box-shadow:0 5px 20px #0002;font:12px/1.4 system-ui,sans-serif;width:max-content;max-width:calc(100% - 20px);backdrop-filter:blur(12px)}
+.r88-localbar a{color:white!important;text-decoration:none;font:600 12px/1.4 system-ui,sans-serif;white-space:nowrap}.r88-localbar span{color:#d5e2e6;font-size:11px}.r88-localbar a:hover{text-decoration:underline}body{padding-bottom:56px!important}body.r88-embedded{padding-bottom:0!important}.r88-embedded .r88-localbar{display:none}
+#r88-message{position:fixed;bottom:70px;left:50%;transform:translateX(-50%);z-index:50000;background:#17272d;color:#fff;border:1px solid #627680;border-radius:12px;padding:20px 24px;width:min(540px,calc(100% - 32px));box-shadow:0 12px 40px #0004;font:14px/1.6 system-ui,sans-serif}#r88-message[hidden]{display:none}
+.r88-access-link{display:block!important;padding:14px 18px;background:#e7efec;color:#174f3a!important;border-radius:8px;font:600 14px/1.4 system-ui,sans-serif;margin:0 0 20px!important;text-decoration:none}
+@media(max-width:600px){.r88-localbar{gap:12px}.r88-localbar span{display:none}.r88-localbar{bottom:8px}}
+@media print{.r88-localbar,#r88-message{display:none!important}}
